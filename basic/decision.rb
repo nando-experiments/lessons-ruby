@@ -1,4 +1,4 @@
-﻿# Estrutura de decisão :)
+# Estrutura de decisão :)
 
 puts "==="
 
@@ -14,9 +14,9 @@ puts "==="
 puts "Seu nome é: " + nome
 
 if sexo == "M"
-    puts "Sexo: Masculino."
+  puts "Sexo: Masculino."
 elsif sexo == "F"
-    puts "Sexo: Feminino."
+  puts "Sexo: Feminino."
 else
-    puts "Não foi possível verificar!"
+  puts "Não foi possível verificar!"
 end

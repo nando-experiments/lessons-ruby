@@ -1,26 +1,25 @@
-﻿
 # Classe ContaPoupanca
 class ContaPoupanca
 
-    def initialize
-        @saldo = 0.0
-    end
+  def initialize
+    @saldo = 0.0
+  end
 
-    def sacar valor
-        if @saldo >= valor
-            @saldo = @saldo - valor
-        end
-        puts "Você sacou R$" + valor.to_s
+  def sacar valor
+    if @saldo >= valor
+      @saldo = @saldo - valor
     end
+    puts "Você sacou R$" + valor.to_s
+  end
 
-    def depositar valor
-        @saldo = @saldo + valor
-        puts "Você depositou R$" + valor.to_s
-    end
+  def depositar valor
+    @saldo = @saldo + valor
+    puts "Você depositou R$" + valor.to_s
+  end
 
-    def saldo
-        @saldo
-    end
+  def saldo
+    @saldo
+  end
 
 end
 

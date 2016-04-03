@@ -1,4 +1,4 @@
-﻿# loop while
+# loop while
 
 puts "==="
 
@@ -21,7 +21,7 @@ puts "==="
 puts "Seu nome é: " + nome
 
 if sexo == "M"
-    puts "Sexo: Masculino."
+  puts "Sexo: Masculino."
 elsif sexo == "F"
-    puts "Sexo: Feminino."
+  puts "Sexo: Feminino."
 end
