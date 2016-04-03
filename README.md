@@ -1,4 +1,4 @@
-lessons-ruby
+Lessons Ruby
 ============
 
-my lessons Ruby
+> :gem: My lessons Ruby
