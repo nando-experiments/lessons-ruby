@@ -1,0 +1,43 @@
+
+body {
+  font-family: $base-font-family;
+  background-color: $base-background-color;
+  color: $base-font-color;
+  line-height: $base-line-height;
+  font-size: $base-font-size;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: $small-spacing;
+  font-weight: 600;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.alert-error {
+  padding: $medium-spacing;
+  display: block;
+  background-color: lighten(#f00, 20%);
+  color: #fff;
+
+  p {
+    margin: 0;
+  }
+}

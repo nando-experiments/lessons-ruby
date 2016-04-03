@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <%= erb :head, :views => settings.partials_dir %>
+  <body>
+    <main>
+      <%= erb :header, :views => settings.partials_dir %>
+
+      <section class="container">
+        <%= yield %>
+      </section>
+
+      <%= erb :footer, :views => settings.partials_dir %>
+    </main>
+  </body>
+</html><!-- by nandomoreira.me -->

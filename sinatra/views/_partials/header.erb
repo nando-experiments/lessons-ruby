@@ -1,0 +1,17 @@
+<header class="header">
+
+  <nav class="navbar">
+    <div class="container">
+      <ul>
+        <li><a href="<%= url("/") %>">Home</a></li>
+        <li><a href="<%= url("/about") %>">About</a></li>
+        <li><a href="<%= url("/contact") %>">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="page-title"><% if @page_title %><%= @page_title %><% else %>Sinata Playground<% end %></h1>
+  </div>
+
+</header>
